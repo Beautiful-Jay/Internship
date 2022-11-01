@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -36,3 +37,111 @@
     transform: rotate(360deg);
   }
 }
+#twitter {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #101828;
+}
+
+#slack {
+  width: 100%;
+  height: 30px;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+  color: #101828;
+  visibility: hidden;
+  }
+
+.share_icon {
+    position: absolute;
+    top: 20px;
+    right: 25%;
+  }
+
+  .share_icon:hover {
+    background: #F2F4F7;
+    border: 1px solid #D0D5DD;
+    border-radius: 20px;
+  }
+
+  .share_icon2:hover {
+    background: #F9FAFB;
+    border: 1px dashed #D0D5DD;
+    border-radius: 20px;
+  }
+
+  .share_icon2 {
+    position: absolute;
+    top: 20px;
+    right: 25%;
+  }
+
+.profile_bottom{
+  display: flex;
+  justify-content: center;
+  padding: 24px 32px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+  filter: drop-shadow(0px 1px 2px rgba(16, 24, 40, 0.05));
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  /* box-sizing: border-box; */
+  text-decoration: underline;
+  color: black;
+  background: #D0D5DD;
+  border: 1px solid #D0D5DD;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+}
+
+a:active {
+  /* box-sizing: border-box; */
+  text-decoration: underline;
+  color: black;
+  background: #EAECF0;
+  border: 1px solid #98A2B3;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05), 0px 0px 0px 4px #EBE9FE;
+  border-radius: 8px;
+}
+
+.footerContent{
+  position: relative;
+  bottom: 10px;
+  left: 0px;
+  padding: 10px 0px 0px 10px;
+  margin: 100px 10px 30px 10px;
+  width: inherit;
+  height: 64px;
+  border-top: 1px solid #EAECF0;
+  color: #667085;
+  text-align: initial;
+}
+
+  /* On screens that are 600px wide or more, go from four columns to two columns */
+  @media screen and (max-width: 600px) {
+    .share_icon {
+      display: none;
+    }
+  }
+
+   /* On screens that are 580px wide or less, make the columns stack on top of each other instead of next to each other */
+ @media screen and (min-width: 580px) {
+    .share_icon2 {
+      display: none;
+    }
+  }

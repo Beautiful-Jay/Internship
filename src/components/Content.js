@@ -63,6 +63,13 @@ function Content() {
         title='Take a look at the Free Design by Zuri!>'
          className='rounded-[10px] p-3 text-center w-[90%] my-2 mb-10 bg-[#EAECF0]'
          >Design Books</a>
+
+         <a id='contact'
+         href='/contact'
+         title='Feel free to message me'
+         className='rounded-[10px] p-3 text-center w-[90%] my-2 mb-10 bg-[#EAECF0]'>
+          Contact Me
+         </a>
     </div>
 
     <div className='profile_bottom space-x-6'>
